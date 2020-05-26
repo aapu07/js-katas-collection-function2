@@ -45,7 +45,7 @@ function power(x, n) {
 }
 console.log(power(2, 8));
 console.log(power(3, 4));
-console.log(power(9, 4));
+
 
 
 
@@ -58,6 +58,7 @@ function Factorial(num) {
    return total;
 }
 console.log(Factorial(5))
+
 
 //Fibonacci
 
@@ -73,5 +74,5 @@ function Fibonacci(n) {
    return b;
 }
 console.log(Fibonacci(8));
-console.log(Fibonacci(20))
+
 
