@@ -54,14 +54,14 @@ console.log(Factorial(5))
 //Fibonacci
 
 function Fibonacci(n) {
-   let total = 0;
+   let i = 0;
    let a = 1;
-   let b = 1;
+   let total = 1;
    for (let index = 2; index < n; index = index + 1) {
-      b = add(total, a)
-      total = a;
-      a = b;
+      total = add(i, a)
+      i = a;
+      a = total;
    }
-   return b;
+   return total;
 }
 console.log(Fibonacci(8));
