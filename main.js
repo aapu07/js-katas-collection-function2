@@ -42,9 +42,9 @@ console.log(power(9, 4));
 
 
 //Factorial
-function Factorial(n) {
+function Factorial(num) {
    let total = 1;
-   for (var index = 1; index <n; index = index + 1) {
+   for (var index = 1; index < num; index = index + 1) {
       total = multiply(total, index)
    }
    return total;
