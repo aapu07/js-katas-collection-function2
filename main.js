@@ -1,20 +1,20 @@
 
 //ADD
-function add(number2, number4) {
-   return number2 + number4
+function add(a, b) {
+   return a + b
 }
 
 console.log(add(2, 4))
 
 //MULTIPLY
 
-function multiply(input1, input2) {
+function multiply(a, b) {
 
    let total = 0
 
-   for (let index = 0; index < input1; index++) {
+   for (let index = 0; index < a; index++) {
 
-      total = add(total, input2)
+      total = add(total, b)
 
    }
    return total
@@ -42,9 +42,9 @@ console.log(power(9, 4));
 
 
 //Factorial
-function Factorial(num) {
+function Factorial(n) {
    let total = 1;
-   for (var index = 1; index <num; index = index + 1) {
+   for (var index = 1; index <n; index = index + 1) {
       total = multiply(total, index)
    }
    return total;
